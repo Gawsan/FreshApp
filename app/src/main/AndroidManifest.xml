@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnEra">
         <activity
+            android:name=".checkSum"
+            android:exported="false" />
+        <activity
             android:name=".AfterLogin"
             android:exported="false"
             android:label="@string/title_activity_after_login"
