@@ -7,6 +7,8 @@ import android.webkit.WebView;
 
 public class checkSum extends AppCompatActivity {
     private WebView gaws;
+    private Object view;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -14,6 +16,10 @@ public class checkSum extends AppCompatActivity {
         setContentView(R.layout.activity_check_sum);
 
         gaws.canGoBack();
+        private void checksum(){
+            gaws.getElevation();
+
+        }
 
     }
 }
